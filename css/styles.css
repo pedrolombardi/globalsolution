@@ -1,0 +1,50 @@
+    
+.onu-color {
+    background-color: #00a1b3;
+    color: #ffffff;
+    padding: 50px 0;
+  }
+  
+  .navbar {
+    background-color: #00a1b3;
+  }
+  
+  .navbar .navbar-brand {
+    color: #ffffff;
+    .navbar-custom {
+      background-color: #007ac9;
+    }
+
+    .navbar-custom .navbar-brand,
+    .navbar-custom .navbar-nav .nav-link {
+      color: #fff;
+    }
+
+    .onu-color {
+      background-color: #f2f2f2;
+    }
+
+    .text-center {
+      text-align: center;
+    }
+
+    .btn-primary {
+      background-color: #007ac9;
+      border-color: #007ac9;
+    }
+
+    .btn-primary:hover {
+      background-color: #00578a;
+      border-color: #00578a;
+    }
+
+    .footer {
+      background-color: #007ac9;
+      color: #fff;
+      padding: 20px 0;
+    }
+
+    .footer p {
+      margin: 0;
+    }
+  }
