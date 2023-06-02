@@ -1,4 +1,21 @@
     
+header {
+  background-color: #007ac9;
+}
+
+header .navbar {
+  background-color: #007ac9;
+}
+
+header .navbar .navbar-brand {
+  color: #ffffff;
+}
+
+header .navbar-custom .navbar-brand,
+header .navbar-custom .navbar-nav .nav-link {
+  color: #fff;
+}
+
 .onu-color {
     background-color: #00a1b3;
     color: #ffffff;
@@ -48,3 +65,52 @@
       margin: 0;
     }
   }
+
+  footer {
+    background-color: #007ac9;
+    color: #fff;
+    padding: 20px 0;
+  }
+  
+  footer h4 {
+    color: #fff;
+    margin-bottom: 20px;
+  }
+  
+  footer p {
+    color: #fff;
+    margin-bottom: 20px;
+  }
+  
+  footer .newsletter-form .form-control {
+    border-radius: 0;
+    background-color: #007ac9;
+    color: #fff;
+  }
+  footer .form-control {
+    color: #000000 !important;
+  }
+  footer label {
+    color: #bc1616 !important;
+  }
+  
+  footer .newsletter-form .btn-primary:hover {
+    background-color: #00578a;
+    border-color: #00578a;
+  }
+  
+  footer .contact-info li {
+    margin-bottom: 10px;
+  }
+  
+  footer .contact-info i {
+    margin-right: 10px;
+  }
+
+  footer .newsletter-form .btn-primary:hover {
+    background-color: #00578a;
+    border-color: #00578a;
+  }
+
+  
+  
