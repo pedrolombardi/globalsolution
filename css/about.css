@@ -1,0 +1,65 @@
+.text1, .text2, .imag-1 .graf-um, .graf-dois, .text3, #item-um, #item-dois, #item-tres {
+    visibility: hidden;
+}
+
+.img-container {
+    overflow: hidden;
+}
+
+.text1, .text2, .text3 {
+    font-size: large;
+}
+
+.images {
+    overflow: hidden;
+    -webkit-transition: -webkit-transform .5s ease;
+    transition: transform .5s ease;
+}
+
+.images:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.banner {
+    background-image: url("../imagens/stock4.jpg");
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+}
+
+.text2 {
+    padding-top: 20px;
+    text-align: center;
+    width: 100%;
+}
+
+.graf-um {
+    border: solid #00a1b3 ;
+    margin-bottom: 30px;
+}
+
+#list-container {
+    padding: 30px, 0, 10px, 0;
+    margin-bottom: 100px;
+    height: 200px;
+    text-align: center;
+}
+
+#list-title {
+    line-height: 2;
+    margin-top: 10px;
+}
+
+.closed {
+    line-height: 50px;
+    font-size: large;
+    list-style-position: inside;
+    list-style-type: square;
+}
+
+.image-food {
+    width: 600px;
+    text-align: center;
+}
