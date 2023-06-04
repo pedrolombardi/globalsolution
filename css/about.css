@@ -38,6 +38,10 @@
     margin-bottom: 30px;
 }
 
+.form-control::placeholder {
+    color: white
+  }
+
 #list-container {
     padding: 30px, 0, 10px, 0;
     margin-bottom: 50px;

@@ -105,6 +105,10 @@ header .navbar-custom .navbar-nav .nav-link {
     background-color: #00578a;
     border-color: #00578a;
   }
+
+  .form-control::placeholder {
+    color: white
+  }
   
   footer .contact-info li {
     margin-bottom: 10px;
