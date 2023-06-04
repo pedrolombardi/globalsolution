@@ -94,6 +94,15 @@ header .navbar-custom .navbar-nav .nav-link {
     background-color: #007ac9;
     color: #fff;
   }
+
+  .text-format {
+    color: #f2f2f2;
+  } 
+
+  .form-control::placeholder {
+    color: white
+  }
+
   footer .form-control {
     color: #000000 !important;
   }
