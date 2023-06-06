@@ -14,7 +14,13 @@ sr.reveal('.image-food', {
     duration: 2000})
 
 sr.reveal('.img-main-one', {
-    distance: '50px'
+    distance: '50px',
+    easing: 'ease-in'
+})
+
+sr.reveal('.img-main-two', {
+    distance: '80px',
+    easing: 'ease-in'
 })
 
 sr.reveal('#img', {
