@@ -21,6 +21,7 @@
 #container {
     display: flex;
     flex-direction:row;
+    justify-content: space-evenly ;
 }
 
 #metaUm, #metaDois, #metaTres, #metaQuatro, #metaCinco, #metaSeis, #metaSete, #metaOito {
