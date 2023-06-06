@@ -17,6 +17,12 @@ sr.reveal('.img-main-one', {
     distance: '50px'
 })
 
+sr.reveal('#img', {
+    distance: '0px',
+    opacity: 0.4,
+    easing: 'ease-in'
+})
+
 sr.reveal('#item-dois', { 
     rotate: {x: 0, y: 30, z: 0},
     duration: 1000
