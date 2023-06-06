@@ -140,5 +140,14 @@ header .navbar-custom .navbar-nav .nav-link {
   .img-main-one {
     visibility: hidden
   }
+
+
+  .logo {
+    text-align: center;
+}
+
+#img {
+    width: 500px;
+}
   
   
