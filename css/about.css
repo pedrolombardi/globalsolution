@@ -2,7 +2,7 @@
     text-decoration: underline;
 }
 
-.text1, .text2, .text3, #item-um, #item-dois, #item-tres, .image-food {
+.text1, .text2, .text3, #item-um, #item-dois, #item-tres, .image-food, #conceptUm, #conceptDois, #conceptTres {
     visibility: hidden;
 }
 
@@ -25,6 +25,11 @@
     height: 400px;
     background-size: cover;
     background-position: center;
+}
+
+.intro {
+    text-align: center;
+    font-size: large;
 }
 
 .text2 {

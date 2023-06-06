@@ -22,3 +22,18 @@ sr.reveal('#item-tres', {
     rotate: {x: 0, y: 30, z: 0},
     duration: 3000
 })
+
+sr.reveal('#conceptUm', { 
+    rotate: {x: 0, y: 30, z: 0},
+    duration: 1000
+})
+
+sr.reveal('#conceptDois', { 
+    rotate: {x: 0, y: 30, z: 0},
+    duration: 4000
+})
+
+sr.reveal('#conceptTres', { 
+    rotate: {x: 0, y: 30, z: 0},
+    duration: 7000
+})
