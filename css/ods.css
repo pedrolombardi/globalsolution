@@ -1,0 +1,28 @@
+#titleUm, #titleDois {
+    padding-bottom: 20px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.list-container {
+    font-size: large;
+    padding: 30px, 0, 10px, 0;
+    margin-bottom: 50px;
+    line-height: 20px;
+    text-align: center;
+    
+}
+
+.list li {
+    margin: 30px;
+    list-style-type: square;
+}
+
+#container {
+    display: flex;
+    flex-direction:row;
+}
+
+#metaUm, #metaDois, #metaTres, #metaQuatro, #metaCinco, #metaSeis, #metaSete, #metaOito {
+    visibility: hidden;
+}

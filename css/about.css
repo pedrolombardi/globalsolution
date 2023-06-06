@@ -38,6 +38,10 @@
     width: 100%;
 }
 
+.section {
+    padding:  50px;
+}
+
 .graf-um {
     border: solid #00a1b3 ;
     margin-bottom: 30px;

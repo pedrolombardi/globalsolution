@@ -37,3 +37,24 @@ sr.reveal('#conceptTres', {
     rotate: {x: 0, y: 30, z: 0},
     duration: 7000
 })
+
+sr.reveal('#metaUm', { 
+    rotate: {x: 0, y: 30, z: 0},
+    duration: 1000
+})
+
+
+sr.reveal('#metaDois', {rotate: {x: 0, y: 30, z: 0},
+duration: 1000})
+sr.reveal('#metaTres', { rotate: {x: 0, y: 30, z: 0},
+duration: 1000})
+sr.reveal('#metaQuatro', { rotate: {x: 0, y: 30, z: 0},
+duration: 2000})
+sr.reveal('#metaCinco', { rotate: {x: 0, y: 30, z: 0},
+duration: 2000})
+sr.reveal('#metaSeis', { rotate: {x: 0, y: 30, z: 0},
+duration: 2000})
+sr.reveal('#metaSete', { rotate: {x: 0, y: 30, z: 0},
+duration: 3000})
+sr.reveal('#metaOito', { rotate: {x: 0, y: 30, z: 0},
+duration: 3000})
