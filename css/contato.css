@@ -1,0 +1,25 @@
+#titleOne {
+    text-align: center;
+}
+
+.email-input {
+    width: 300px;
+}
+
+.main-form::placeholder {
+    color: black
+}
+
+.email {
+    width: 90%;
+}
+
+.main-form {
+    border-radius: 5px;
+}
+
+#main {
+    padding: 50px
+}
+
+

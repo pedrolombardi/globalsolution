@@ -1,0 +1,21 @@
+#titleOne, #titleTwo, #titleThree {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+#sectionTwo, #sectionThree {
+    padding: 50px;
+}
+
+.logo {
+    text-align: center;
+}
+
+#img {
+    width: 500px;
+}
+
+.main-idea-text {
+
+    font-size: larger;
+  }

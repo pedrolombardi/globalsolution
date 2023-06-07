@@ -123,5 +123,36 @@ header .navbar-custom .navbar-nav .nav-link {
     border-color: #00578a;
   }
 
+  .link-interno {
+    color:#000000
+  }
+
+  #titleOne {
+    padding-bottom: 30px;
+  }
+
+  .main-idea-text {
+    line-height: 40px;
+    font-size: larger;
+  }
+
+
+  .img-main-one, .img-main-two {
+    visibility: hidden
+  }
+
+
+  .logo {
+    text-align: center;
+}
+
+#img {
+    width: 500px;
+}
+
+#titleThree {
+  text-align: center;
+  padding-bottom: 20px;
+}
   
   

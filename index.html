@@ -7,13 +7,14 @@
   <title>Projeto</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
   <link rel="stylesheet" href="css/styles.css">
+  <script src="https://unpkg.com/scrollreveal"></script>
   
 </head>
 
 <body>
   <header>
     <nav class="navbar navbar-expand-lg  navbar-custom">
-      <a class="navbar-brand" href="#">Projeto</a>
+      <a class="navbar-brand" href="#">Vamos ajudar na luta contra a fome!</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -30,10 +31,10 @@
             <a class="nav-link" href="ods.html">ODS</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Contato</a>
+            <a class="nav-link" href="ideia.html">Ideia</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Ideia</a>
+            <a class="nav-link" href="contato.html">Contato</a>
           </li>
         </ul>
       </div>
@@ -41,19 +42,23 @@
   </header>
 
   <main>
+    <section class="logo">
+      <img id='img' src="imagens/logo.png">
+  </div>
+  </section>
     <section class="onu-color">
       <div class="container">
         <div class="row">
           <div class="col-md-6">
-            <img src="imagens/stock2.png" class="img-fluid" alt="Imagem 1">
+            <img src="imagens/photo_4976853385454136093_w-1024x682.jpg" class="img-fluid img-main-one" alt="Imagem 1">
           </div>
           <div class="col-md-6 d-flex align-items-center">
-            <div class="text-center">
+            <div class="text-center main-idea-text">
               <p>Como é de conhecimento notório, a fome e a insegurança alimentar sao um problema mundial. <br>
-                A fome afeta, no mundo, cerca de 811 milhões de pessoas, concentrando-se principalmente nos continentes africano e asiático(ver <a href="sobre.html">aqui</a>). Tais condiçoes são causadas por diversos fatores, como a pobreza, as desigualdades sociais, as crises econômicas, os conflitos e guerras civis e internacionais, além de ser intensificada pela crise climática e fenômenos como secas severas e inundações. As consequências da fome no mundo vão desde a subnutrição até a morte por desnutrição nos casos de maior gravidade."
+                A fome afeta, no mundo, cerca de 811 milhões de pessoas, concentrando-se principalmente nos continentes africano e asiático. Tais condiçoes são causadas por diversos fatores, como a pobreza, as desigualdades sociais, as crises econômicas, os conflitos e guerras civis e internacionais, além de ser intensificada pela crise climática e fenômenos como secas severas e inundações. As consequências da fome no mundo vão desde a subnutrição até a morte por desnutrição nos casos de maior gravidade."
 
                 </p>
-              <a href="#" class="btn btn-primary">Saiba mais</a>
+              <a href="sobre.html" class="btn btn-primary">Saiba mais</a>
             </div>
           </div>
         </div>
@@ -64,71 +69,63 @@
       <div class="container">
         <div class="row">
           <div class="col-md-6 d-flex align-items-center">
+            <div class="text-center main-idea-text">
+              <p>Apesar do esforço coletivo, capitaneado pela ONU, atraves da ODS 2 (ver <a href="ods.html"> aqui</a>), os resultados ainda estão longe de ser satisfatórios, visto que nos ultimos anos, houve um aumento da fome e da insegurança alimentar, como demonstrado.
+              <a href="sobre.html" class="btn btn-primary">Saiba mais</a>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <img src="imagens/istockphoto-1066112898-2048x2048.jpg" class="img-fluid img-main-two" alt="Imagem 2">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="onu-color">
+      <div class="container">
             <div class="text-center">
-              <h2>Texto 2</h2>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam tincidunt, mauris eu iaculis
-                bibendum,
-                justo dolor consequat nisl, nec consequat massa diam nec elit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum voluptatibus hic eligendi dolorum numquam qui sequi alias veniam eum at esse eaque autem aperiam harum error in, atque eveniet debitis perferendis amet porro ullam voluptates, est veritatis. Ipsam nisi maxime consectetur, nesciunt, doloremque quidem ab fuga excepturi officia corporis velit nam esse unde amet ipsum minus fugiat incidunt expedita quasi. Cumque deserunt ab tempora magnam voluptas animi provident a exercitationem officiis similique quidem in quis maxime sit impedit quia id, nemo, nihil natus quas temporibus quod illo harum porro! Provident saepe adipisci unde mollitia iure blanditiis quis natus possimus reprehenderit.
+              <h2 id="titleOne">Projeto</h2>
+              <div class="main-idea-text">
+
+                <p>Pensando nesse grande problema, entendemos que uma das soluções para ajudar no problema passa, necessariamente, pela diminuição do desperdício alimentar.</p>
+                <p>Estima-se que cerca de 1/3 dos alimentos produzidos no mundo sao desperdiçados. <br>
+                  Segundo a FAO (Organização das Nações Unidas para Alimentação e Agricultura), 54% do desperdício de alimento ocorre no início da cadeia produtiva, seja em problemas na colheita ou na armazenagem. O restante, 46%, ocorre nas fases posteriores.<br>
+                  Nessa fase posterior, durante o transporte e armazenamento, o desperdício é de 30%. No comércio e no varejo, a perda é de 50%, enquanto nos domicílios, 10% vai para o lixo.
+                </p>
+                <p>
+                Para nossa proposta, nos interessa esse desperdício dos alimentos frescos, diga-se vegetais, hortaliças e legumes, nos momentos finais da cadeia.<br>
+                Entendemos que os motivos de tamanho desperdício se relacionam, principalmente, à validade dos alimentos. Muitos produtos estragam pois não chegam às prateleiras ou, tendo chegado la, estragam antes de serem adquiridos pelo consumidor. Ainda, muitos consumidores compram produtos que estragam antes de irem para a mesa e uma parte considerável do que chega até ela não é consumido.
               </p>
-              <a href="#" class="btn btn-primary">Saiba mais</a>
+              <p>
+                Entendemos que isso ocorre, principalmente, pois o comprador, ao escolher seus produtos frescos, seja para consumo ou para revenda, dá preferência aos produtos mais "bonitos".
+                Assim, os produtos que contém qualquer imperfeição externa, apesar de estarem ótimos para o consumo, acabam sobrando, e, por conseguinte, estragam.
+              </p>
+              <p>
+                De acordo com a Associação Brasileira dos Supermercados (Abras),  os supermercados brasileiros perdem anualmente R$ 7,1 bilhões com alimentos aptos ao consumo, mas que foram jogados fora por danos, aparência ou validade.
+              </p>
+              <p>
+                Assim, buscamos, intermediar a compra desses produtos preteridos por quem possa interessar. <br>
+                Nossa ideia se resume, basicamente, em intermediar a compra desses produtos por instituições que atuam na luta contra a fome.
+                
+              </p>
+              
+              <a href="ideia.html" class="btn btn-primary">Saiba mais</a>
             </div>
-          </div>
-          <div class="col-md-6">
-            <img src="imagens/stock2.png" class="img-fluid" alt="Imagem 2">
-          </div>
         </div>
       </div>
     </section>
-
-    <section class="onu-color">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-6">
-            <img src="imagens/stock2.png" class="img-fluid" alt="Imagem 3">
-          </div>
-          <div class="col-md-6 d-flex align-items-center">
-            <div class="text-center">
-              <h2>Texto 3</h2>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam tincidunt, mauris eu iaculis
-                bibendum,
-                justo dolor consequat nisl, nec consequat massa diam nec elit. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptates, itaque voluptatibus tempore, illo vero delectus harum nesciunt excepturi veniam quia officiis mollitia quas sequi autem aut! Illo atque maiores eum, dignissimos molestias voluptate! Quidem quisquam accusantium, consectetur vero soluta debitis deleniti? Quod nobis adipisci distinctio amet rerum nam vel consequatur aut culpa. Perspiciatis, atque veritatis. Similique expedita dolore eius sequi iusto officiis architecto, rerum dolores repellendus reprehenderit dignissimos odio voluptatibus, laborum reiciendis deserunt libero eaque eum repudiandae consectetur? Autem temporibus cum provident sapiente, minima quam veniam consequuntur molestias quod debitis. Delectus totam, cumque nemo corporis iste ipsam dolor natus possimus.</p>
-              <a href="#" class="btn btn-primary">Saiba mais</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
     <section>
       <div class="container">
-        <div class="row">
-          <div class="col-md-6 d-flex align-items-center">
-            <div class="text-center">
-              <h2>Texto 4</h2>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam tincidunt, mauris eu iaculis
-                bibendum,
-                justo dolor consequat nisl, nec consequat massa diam nec elit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus officiis placeat numquam pariatur rem odit quos voluptatum, omnis, sint vitae, ratione iusto doloremque quibusdam corporis? Reprehenderit natus mollitia harum qui alias, quibusdam nam eum? In quidem eum minus, fugit deserunt dolor voluptatibus omnis quisquam eligendi. Dolore at soluta debitis ipsam molestias! Vitae voluptates natus doloremque dicta. Ducimus nihil quibusdam incidunt ut asperiores sunt ullam rem harum praesentium totam, alias eaque fugit facilis doloremque numquam voluptate laborum maxime. Nihil in cumque repellat. Ipsa reprehenderit quod natus, deserunt ad exercitationem molestiae quasi sapiente pariatur sint quaerat rem praesentium fugit accusamus quam nihil.</p>
-              <a href="#" class="btn btn-primary">Saiba mais</a>
-            </div>
-          </div>
-          <div class="col-md-6">
-            <img src="imagens/stock2.png" class="img-fluid" alt="Imagem 4">
-          </div>
+
+        <h4 id='titleThree'>Vídeo</h4>
+        <p class="main-idea-text">
+          Segue abaixo um pequeno vídeo explicativo sobre a proposta:
+        </p>
+        <video src="x"></video>
         </div>
-      </div>
     </section>
 
-    <section class="onu-color">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-8 offset-lg-2">
-            <div class="embed-responsive embed-responsive-16by9">
-              <iframe class="embed-responsive-item" src="" allowfullscreen></iframe>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+
   </main>
 
   <footer class="footer">
@@ -174,6 +171,7 @@
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="script.js"></script>
 </body>
 
 </html>

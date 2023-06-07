@@ -1,8 +1,8 @@
 window.sr = ScrollReveal({ reset: true })
 
-sr.reveal('.text1', { duration: 1000})
-sr.reveal('.text2', { duration: 1000})
-sr.reveal('.text3', { duration: 1000})
+sr.reveal('.text1', { scale: 1.5 })
+sr.reveal('.text2', { distance: '50px'})
+sr.reveal('.text3', { distance: '50px'})
 // sr.reveal('.graf-um', { 
 //     rotate: {x: 100, y: 0, z: 0},
 //     duration: 2000})
@@ -13,6 +13,21 @@ sr.reveal('.image-food', {
     rotate: {x: 100, y: 0, z: 0},
     duration: 2000})
 
+sr.reveal('.img-main-one', {
+    distance: '50px',
+    easing: 'ease-in'
+})
+
+sr.reveal('.img-main-two', {
+    distance: '80px',
+    easing: 'ease-in'
+})
+
+sr.reveal('#img', {
+    distance: '0px',
+    opacity: 0.4,
+    easing: 'ease-in'
+})
 
 sr.reveal('#item-dois', { 
     rotate: {x: 0, y: 30, z: 0},
@@ -37,3 +52,24 @@ sr.reveal('#conceptTres', {
     rotate: {x: 0, y: 30, z: 0},
     duration: 7000
 })
+
+sr.reveal('#metaUm', { 
+    rotate: {x: 0, y: 30, z: 0},
+    duration: 1000
+})
+
+
+sr.reveal('#metaDois', {rotate: {x: 0, y: 30, z: 0},
+duration: 1000})
+sr.reveal('#metaTres', { rotate: {x: 0, y: 30, z: 0},
+duration: 1000})
+sr.reveal('#metaQuatro', { rotate: {x: 0, y: 30, z: 0},
+duration: 2000})
+sr.reveal('#metaCinco', { rotate: {x: 0, y: 30, z: 0},
+duration: 2000})
+sr.reveal('#metaSeis', { rotate: {x: 0, y: 30, z: 0},
+duration: 2000})
+sr.reveal('#metaSete', { rotate: {x: 0, y: 30, z: 0},
+duration: 3000})
+sr.reveal('#metaOito', { rotate: {x: 0, y: 30, z: 0},
+duration: 3000})
